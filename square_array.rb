@@ -5,5 +5,12 @@ def square_array(array)
      result << (i ** 2)
   end
   result
+end 
 
+
+def square_array(array)
+  alternative_result = []
+  array.collect { |i| i**2 }
+end 
+alternative_result
 end 
