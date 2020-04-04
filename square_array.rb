@@ -9,7 +9,6 @@ end
 
 
 def square_array(array)
-  alternative_result = []
   array.collect { |i| i**2 }
 end 
 alternative_result
